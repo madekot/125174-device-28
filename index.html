@@ -3,10 +3,75 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Девайс</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
   </head>
-  <body>
-
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS, уровень 1</a>».</p>
-
+  <body class="page">
+    <header class="page__header header">
+      <nav class="header__site-navigation site-navigation">
+        <div class="site-navigation__first-wrap">
+          <div class="site-navigation__logo">
+            <a class="device-logo" href="#">
+              <img class="device-logo__image" src="img/device-logo__image.svg" width="163" height="35" alt="Логотип девайс" >
+            </a>
+          </div>
+          <form class="site-navigation__search search-form">
+            <div class="search-form__content">
+              <input class="search-form__input search-input" type="text" placeholder="Поиск по сайту">
+              <button class="search-form__button search-button">найти</button>
+            </div>
+          </form>
+          <div class="site-navigation__user-login-menu user-login-menu"></div>
+          <div class="site-navigation__compare compare"></div>
+          <div class="site-navigation__basket basket"></div>
+        </div>
+        <div class="site-navigation__second-wrap">
+          <div class="site-navigation__products-pages-links products-pages-links">
+            <div class="products-pages-links__title"></div>
+            <div class="products-pages-links__dropdown-menu">
+              <div class="products-pages-links__first-wrap">
+                <div class="products-pages-links__list">
+                  <div class="products-pages-links__list-item">
+                    <div class="page-product-link"></div>
+                  </div>
+                  <div class="products-pages-links__list-item">
+                    <div class="page-product-link"></div>
+                  </div>
+                  <div class="products-pages-links__list-item">
+                    <div class="page-product-link"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="products-pages-links__second-wrap">
+                <div class="products-pages-links__list">
+                  <div class="products-pages-links__list-item">
+                    <div class="page-product-link"></div>
+                  </div>
+                  <div class="products-pages-links__list-item">
+                    <div class="page-product-link"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="products-pages-links__third-wrap">
+                <div class="products-pages-links__list">
+                  <div class="products-pages-links__list-item">
+                    <div class="page-product-link"></div>
+                  </div>
+                  <div class="products-pages-links__list-item">
+                    <div class="page-product-link"></div>
+                  </div>
+                  <div class="products-pages-links__list-item">
+                    <div class="page-product-link"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="site-navigation__delivery delivery"></div>
+          <div class="site-navigation__guarantee guarantee"></div>
+          <div class="site-navigation__contacts contacts"></div>
+        </div>
+      </nav>
+    </header>
   </body>
 </html>
