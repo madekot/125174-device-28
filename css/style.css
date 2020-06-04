@@ -9,6 +9,7 @@
   overflow: hidden;
 }
 
+
 /* device-logo */
 .device-logo {
   display: flex;
@@ -27,6 +28,7 @@
 .device-logo__image {
   flex-grow: 1;
 }
+
 
 /* site-navigation */
 .site-navigation {
@@ -55,8 +57,78 @@
 }
 
 .site-navigation__search {
+	width: 440px;
   margin-right: auto;
 }
+
+.site-navigation__user-menu {
+	width: 500px;
+}
+
+/* user-menu-list */
+.user-menu-list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.user-menu-list__login {
+	margin-right: auto;
+}
+
+.user-menu-list__compare {
+	margin-right: 41px;
+}
+
+.user-menu-list__basket {}
+
+
+/* user-menu-item*/
+.user-menu-item {
+	display: flex;
+	align-items: flex-start;
+}
+
+.user-menu-item__link {
+	padding-left: 24px;
+
+	font-family: "Open Sans", "Arial", sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 15px;
+	line-height: 20px;
+
+	color: #000000;
+}
+
+.user-menu-item__link {
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+.user-menu-item__link:hover {
+	opacity: 0.6;
+}
+
+.user-menu-item__link:active {
+	opacity: 0.3;
+}
+
+.user-menu-item__link--login-icon {
+	background-image: url(../img/icon_user.svg);
+}
+
+.user-menu-item__link--compare-icon {
+	background-image: url(../img/icon_chart.svg);
+}
+
+.user-menu-item__link--basket-icon {
+	background-image: url(../img/icon_basket.svg);
+}
+
 
 /* search-input */
 .search-input {
@@ -91,10 +163,9 @@
   color: rgba(0, 0, 0, 0.3);
 }
 
+
 /* search-form */
-.search-form {
-  width: 440px;
-}
+.search-form {}
 
 .search-form__content {
   display: flex;
@@ -137,6 +208,7 @@
   background-color: #000000;
 }
 
+
 /* search-button */
 .search-button {
   padding: 15px 17px;
@@ -170,11 +242,13 @@
   color: rgba(255, 255, 255, 0.3);
 }
 
+
 /* body */
 body {
   margin: 0;
   padding: 0;
 }
+
 
 /* a */
 a {
@@ -182,11 +256,13 @@ a {
   color: inherit;
 }
 
+
 /* img */
 img {
   max-width: 100%;
   height: auto;
 }
+
 
 /* header */
 .header {
