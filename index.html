@@ -9,75 +9,61 @@
   <body class="page">
     <header class="page__header header">
       <nav class="header__site-navigation site-navigation">
-        <div class="site-navigation__first-wrap">
-          <div class="site-navigation__logo">
-            <a class="device-logo" href="#">
-              <img class="device-logo__image" src="img/device-logo__image.svg" width="163" height="35" alt="Логотип девайс" >
-            </a>
-          </div>
-          <form class="site-navigation__search search-form">
-            <div class="search-form__content">
-              <input class="search-form__input search-input" type="text" placeholder="Поиск по сайту">
-              <button class="search-form__button search-button">найти</button>
+        <div class="site-navigation__row site-navigation__row--size">
+          <div class="site-navigation__column">
+            <div class="site-navigation__logo">
+              <a class="device-logo" href="#">
+                <img class="device-logo__image" src="img/device-logo__image.svg" width="163" height="35" alt="Логотип девайс" >
+              </a>
             </div>
-          </form>
-					<ul class="site-navigation__user-menu user-menu-list">
-						<li class="user-menu-list__login user-menu-item">
-							<a class="user-menu-item__link user-menu-item__link--login-icon" href="#">Войти</a>
-						</li>
-						<li class="user-menu-list__compare user-menu-item">
-							<a class="user-menu-item__link user-menu-item__link--compare-icon" href="#">Сравнить</a>
-						</li>
-						<li class="user-menu-list__basket user-menu-item">
-							<a class="user-menu-item__link user-menu-item__link--basket-icon" href="#">Корзина</a>
-						</li>
-					</ul>
+            <form class="site-navigation__search search-form">
+              <div class="search-form__content">
+                <input class="search-form__input search-input" type="text" placeholder="Поиск по сайту">
+                <button class="search-form__button search-button">найти</button>
+              </div>
+            </form>
+          </div>
+          <div class="site-navigation__column">
+            <ul class="site-navigation__user-navigation user-navigation">
+              <li class="user-navigation__login">
+                <a class="user-navigation__link user-navigation-link user-navigation-link--login-icon"
+                   href="#">Войти</a>
+              </li>
+              <li class="user-navigation__compare">
+                <a class="user-navigation__link user-navigation-link user-navigation-link--compare-icon"
+                   href="#">Сравнить</a>
+              </li>
+              <li class="user-navigation__basket">
+                <a class="user-navigation__link user-navigation-link user-navigation-link--basket-icon"
+                   href="#">Корзина</a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="site-navigation__second-wrap">
-          <div class="site-navigation__products-pages-links products-pages-links">
-            <div class="products-pages-links__title"></div>
-            <div class="products-pages-links__dropdown-menu">
-              <div class="products-pages-links__first-wrap">
-                <div class="products-pages-links__list">
-                  <div class="products-pages-links__list-item">
-                    <div class="page-product-link"></div>
-                  </div>
-                  <div class="products-pages-links__list-item">
-                    <div class="page-product-link"></div>
-                  </div>
-                  <div class="products-pages-links__list-item">
-                    <div class="page-product-link"></div>
-                  </div>
-                </div>
-              </div>
-              <div class="products-pages-links__second-wrap">
-                <div class="products-pages-links__list">
-                  <div class="products-pages-links__list-item">
-                    <div class="page-product-link"></div>
-                  </div>
-                  <div class="products-pages-links__list-item">
-                    <div class="page-product-link"></div>
-                  </div>
-                </div>
-              </div>
-              <div class="products-pages-links__third-wrap">
-                <div class="products-pages-links__list">
-                  <div class="products-pages-links__list-item">
-                    <div class="page-product-link"></div>
-                  </div>
-                  <div class="products-pages-links__list-item">
-                    <div class="page-product-link"></div>
-                  </div>
-                  <div class="products-pages-links__list-item">
-                    <div class="page-product-link"></div>
-                  </div>
-                </div>
+        <div class="site-navigation__row">
+          <div class="site-navigation__column">
+            <div class="site-navigation__products">
+              <a class="site-navigation__link site-navigation-link site-navigation-link--size"
+                 href="#">каталог товаров</a>
+              <div class="site-navigation__products-dropdown site-navigation-dropdown">
+
               </div>
             </div>
           </div>
-          <div class="site-navigation__delivery delivery"></div>
-          <div class="site-navigation__guarantee guarantee"></div>
-          <div class="site-navigation__contacts contacts"></div>
+          <div class="site-navigation__column">
+            <div class="site-navigation__delivery">
+              <a class="site-navigation__link site-navigation-link"
+                 href="delivery.html">Доставка</a>
+            </div>
+            <div class="site-navigation__guarantee">
+              <a class="site-navigation__link site-navigation-link"
+                 href="guarantee.html">Гарантия</a>
+            </div>
+            <div class="site-navigation__contacts">
+              <a class="site-navigation__link site-navigation-link"
+                 href="contacts.html">Контакты</a>
+            </div>
+          </div>
         </div>
       </nav>
     </header>
