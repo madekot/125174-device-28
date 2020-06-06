@@ -9,21 +9,21 @@
   <body class="page">
     <header class="page__header header">
       <nav class="header__site-navigation site-navigation">
-        <div class="site-navigation__row site-navigation__row--size">
-          <div class="site-navigation__column">
-            <div class="site-navigation__logo">
+        <div class="site-navigation__row site-navigation-row">
+          <div class="site-navigation-row__column site-navigation-row-column">
+            <div class="site-navigation-row-column__logo">
               <a class="device-logo" href="#">
                 <img class="device-logo__image" src="img/device-logo__image.svg" width="163" height="35" alt="Логотип девайс" >
               </a>
             </div>
-            <form class="site-navigation__search search-form">
+            <form class="site-navigation-row-column__search search-form">
               <div class="search-form__content">
                 <input class="search-form__input search-input" type="text" placeholder="Поиск по сайту">
                 <button class="search-form__button search-button">найти</button>
               </div>
             </form>
           </div>
-          <div class="site-navigation__column">
+          <div class="site-navigation-row__column site-navigation-row-column site-navigation-row-column--alignment">
             <ul class="site-navigation__user-navigation user-navigation">
               <li class="user-navigation__login">
                 <a class="user-navigation__link user-navigation-link user-navigation-link--login-icon"
@@ -40,27 +40,53 @@
             </ul>
           </div>
         </div>
-        <div class="site-navigation__row">
-          <div class="site-navigation__column">
-            <div class="site-navigation__products">
-              <a class="site-navigation__link site-navigation-link site-navigation-link--size"
-                 href="#">каталог товаров</a>
+        <div class="site-navigation-row">
+          <div class="site-navigation-row__column site-navigation-row-column">
+            <div class="site-navigation-row-column__products">
+              <a
+                class="site-navigation-row-column__link site-navigation-row-column__link site-navigation-link site-navigation-link--size site-navigation-link--icon"
+                href="#">каталог товаров</a>
               <div class="site-navigation__products-dropdown site-navigation-dropdown">
-
+                <div class="site-navigation-dropdown__content products-dropdown-menu">
+                  <ul class="products-dropdown-menu__column products-dropdown-menu-list">
+                    <li class="products-dropdown-menu-list__item products-dropdown-menu-list-item">
+                      <a class="products-dropdown-menu-list-item__link products-dropdown-menu-list-item-link" href="empty.html">Виртуальная реальность</a>
+                    </li>
+                    <li class="products-dropdown-menu-list__item products-dropdown-menu-list-item">
+                      <a class="products-dropdown-menu-list-item__link products-dropdown-menu-list-item-link" href="empty.html">Моноподы для селфи</a>
+                    </li>
+                    <li class="products-dropdown-menu-list__item products-dropdown-menu-list-item">
+                      <a class="products-dropdown-menu-list-item__link products-dropdown-menu-list-item-link" href="empty.html">Экшн-камеры</a>
+                    </li>
+                  </ul>
+                  <ul class="products-dropdown-menu__column products-dropdown-menu-list">
+                    <li class="products-dropdown-menu-list__item products-dropdown-menu-list-item">
+                      <a class="products-dropdown-menu-list-item__link products-dropdown-menu-list-item-link" href="empty.html">Фитнес-браслеты</a>
+                    </li>
+                    <li class="products-dropdown-menu-list__item products-dropdown-menu-list-item">
+                      <a class="products-dropdown-menu-list-item__link products-dropdown-menu-list-item-link" href="empty.html">Умные часы</a>
+                    </li>
+                  </ul>
+                  <ul class="products-dropdown-menu__column products-dropdown-menu-list">
+                    <li class="products-dropdown-menu-list__item products-dropdown-menu-list-item">
+                      <a class="products-dropdown-menu-list-item__link products-dropdown-menu-list-item-link" href="empty.html">Квадрокоптер</a>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
-          <div class="site-navigation__column">
+          <div class="site-navigation-row__column site-navigation-row-column">
             <div class="site-navigation__delivery">
-              <a class="site-navigation__link site-navigation-link"
+              <a class="site-navigation-row-column__link site-navigation-link"
                  href="delivery.html">Доставка</a>
             </div>
             <div class="site-navigation__guarantee">
-              <a class="site-navigation__link site-navigation-link"
+              <a class="site-navigation-row-column__link site-navigation-link"
                  href="guarantee.html">Гарантия</a>
             </div>
             <div class="site-navigation__contacts">
-              <a class="site-navigation__link site-navigation-link"
+              <a class="site-navigation-row-column__link site-navigation-link"
                  href="contacts.html">Контакты</a>
             </div>
           </div>
