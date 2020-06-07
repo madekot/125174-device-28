@@ -1,97 +1,103 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Девайс</title>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body class="page">
-    <header class="page__header header">
-      <nav class="header__site-navigation site-navigation">
-        <div class="site-navigation__row site-navigation-row">
-          <div class="site-navigation-row__column site-navigation-row-column">
-            <div class="site-navigation-row-column__logo">
-              <a class="device-logo" href="#">
-                <img class="device-logo__image" src="img/device-logo__image.svg" width="163" height="35" alt="Логотип девайс" >
-              </a>
-            </div>
-            <form class="site-navigation-row-column__search search-form">
-              <div class="search-form__content">
-                <input class="search-form__input search-input" type="text" placeholder="Поиск по сайту">
-                <button class="search-form__button search-button">найти</button>
-              </div>
-            </form>
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Девайс</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="page">
+<header class="page__header header">
+  <nav class="header__site-navigation site-navigation">
+    <div class="site-navigation__first-row site-navigation-first-row">
+      <div class="site-navigation-first-row__first-column site-navigation-first-row-first-column">
+        <a class="site-navigation-first-row-first-column__logo device-logo" href="#">
+          <img class="device-logo__image" src="img/device-logo__image.svg" width="163" height="35" alt="Логотип девайс">
+        </a>
+        <form class="site-navigation-first-row-first-column__search search-form">
+          <div class="search-form__content">
+            <input class="search-form__input search-input" type="text" placeholder="Поиск по сайту">
+            <button class="search-form__button search-button">найти</button>
           </div>
-          <div class="site-navigation-row__column site-navigation-row-column site-navigation-row-column--alignment">
-            <ul class="site-navigation__user-navigation user-navigation">
-              <li class="user-navigation__login">
-                <a class="user-navigation__link user-navigation-link user-navigation-link--login-icon"
-                   href="#">Войти</a>
-              </li>
-              <li class="user-navigation__compare">
-                <a class="user-navigation__link user-navigation-link user-navigation-link--compare-icon"
-                   href="#">Сравнить</a>
-              </li>
-              <li class="user-navigation__basket">
-                <a class="user-navigation__link user-navigation-link user-navigation-link--basket-icon"
-                   href="#">Корзина</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="site-navigation-row">
-          <div class="site-navigation-row__column site-navigation-row-column">
-            <div class="site-navigation-row-column__products">
-              <a
-                class="site-navigation-row-column__link site-navigation-row-column__link site-navigation-link site-navigation-link--size site-navigation-link--icon"
-                href="#">каталог товаров</a>
-              <div class="site-navigation__products-dropdown site-navigation-dropdown">
-                <div class="site-navigation-dropdown__content products-dropdown-menu">
-                  <ul class="products-dropdown-menu__column products-dropdown-menu-list">
-                    <li class="products-dropdown-menu-list__item products-dropdown-menu-list-item">
-                      <a class="products-dropdown-menu-list-item__link products-dropdown-menu-list-item-link" href="empty.html">Виртуальная реальность</a>
-                    </li>
-                    <li class="products-dropdown-menu-list__item products-dropdown-menu-list-item">
-                      <a class="products-dropdown-menu-list-item__link products-dropdown-menu-list-item-link" href="empty.html">Моноподы для селфи</a>
-                    </li>
-                    <li class="products-dropdown-menu-list__item products-dropdown-menu-list-item">
-                      <a class="products-dropdown-menu-list-item__link products-dropdown-menu-list-item-link" href="empty.html">Экшн-камеры</a>
-                    </li>
-                  </ul>
-                  <ul class="products-dropdown-menu__column products-dropdown-menu-list">
-                    <li class="products-dropdown-menu-list__item products-dropdown-menu-list-item">
-                      <a class="products-dropdown-menu-list-item__link products-dropdown-menu-list-item-link" href="empty.html">Фитнес-браслеты</a>
-                    </li>
-                    <li class="products-dropdown-menu-list__item products-dropdown-menu-list-item">
-                      <a class="products-dropdown-menu-list-item__link products-dropdown-menu-list-item-link" href="empty.html">Умные часы</a>
-                    </li>
-                  </ul>
-                  <ul class="products-dropdown-menu__column products-dropdown-menu-list">
-                    <li class="products-dropdown-menu-list__item products-dropdown-menu-list-item">
-                      <a class="products-dropdown-menu-list-item__link products-dropdown-menu-list-item-link" href="empty.html">Квадрокоптер</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="site-navigation-row__column site-navigation-row-column">
-            <div class="site-navigation__delivery">
-              <a class="site-navigation-row-column__link site-navigation-link"
-                 href="delivery.html">Доставка</a>
-            </div>
-            <div class="site-navigation__guarantee">
-              <a class="site-navigation-row-column__link site-navigation-link"
-                 href="guarantee.html">Гарантия</a>
-            </div>
-            <div class="site-navigation__contacts">
-              <a class="site-navigation-row-column__link site-navigation-link"
-                 href="contacts.html">Контакты</a>
+        </form>
+      </div>
+      <div class="site-navigation-first-row__second-column site-navigation-first-row-second-column">
+        <ul class="site-navigation-first-row-second-column__user-navigation user-navigation">
+          <li class="user-navigation__login user-navigation-login">
+            <a class="user-navigation-login__link user-navigation-link user-navigation-link--login-icon"
+               href="#">Войти</a>
+          </li>
+          <li class="user-navigation__compare user-navigation-compare">
+            <a class="user-navigation-compare__link user-navigation-link user-navigation-link--compare-icon"
+               href="#">Сравнить</a>
+          </li>
+          <li class="user-navigation__basket user-navigation-basket">
+            <a class="user-navigation-basket__link user-navigation-link user-navigation-link--basket-icon"
+               href="#">Корзина</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="site-navigation__second-row site-navigation-second-row">
+      <div class="site-navigation-second-row__first-column site-navigation-second-row-first-column">
+        <div class="site-navigation-second-row-first-column__products">
+          <a
+            class="site-navigation-second-row-first-column__link site-navigation-link site-navigation-link--size site-navigation-link--icon"
+            href="#">каталог товаров</a>
+          <div class="site-navigation-second-row-first-column__products-dropdown site-navigation-dropdown">
+            <div class="site-navigation-dropdown__content products-dropdown-menu">
+              <ul class="products-dropdown-menu__column products-dropdown-menu-list">
+                <li class="products-dropdown-menu-list__item products-dropdown-menu-list-item">
+                  <a class="products-dropdown-menu-list-item__link products-dropdown-menu-list-item-link"
+                     href="empty.html">Виртуальная реальность</a>
+                </li>
+                <li class="products-dropdown-menu-list__item products-dropdown-menu-list-item">
+                  <a class="products-dropdown-menu-list-item__link products-dropdown-menu-list-item-link"
+                     href="empty.html">Моноподы для селфи</a>
+                </li>
+                <li class="products-dropdown-menu-list__item products-dropdown-menu-list-item">
+                  <a class="products-dropdown-menu-list-item__link products-dropdown-menu-list-item-link"
+                     href="empty.html">Экшн-камеры</a>
+                </li>
+              </ul>
+              <ul class="products-dropdown-menu__column products-dropdown-menu-list">
+                <li class="products-dropdown-menu-list__item products-dropdown-menu-list-item">
+                  <a class="products-dropdown-menu-list-item__link products-dropdown-menu-list-item-link"
+                     href="empty.html">Фитнес-браслеты</a>
+                </li>
+                <li class="products-dropdown-menu-list__item products-dropdown-menu-list-item">
+                  <a class="products-dropdown-menu-list-item__link products-dropdown-menu-list-item-link"
+                     href="empty.html">Умные часы</a>
+                </li>
+              </ul>
+              <ul class="products-dropdown-menu__column products-dropdown-menu-list">
+                <li class="products-dropdown-menu-list__item products-dropdown-menu-list-item">
+                  <a class="products-dropdown-menu-list-item__link products-dropdown-menu-list-item-link"
+                     href="empty.html">Квадрокоптер</a>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
-      </nav>
-    </header>
-  </body>
+      </div>
+      <div class="site-navigation-second-row__second-column site-navigation-second-row-second-column">
+        <ul class="site-navigation-second-row-second-column__list site-navigation-links-list">
+          <li class="site-navigation-links-list__delivery">
+            <a class="site-navigation-links-list__link site-navigation-link"
+               href="delivery.html">Доставка</a>
+          </li>
+          <li class="site-navigation-links-list__guarantee">
+            <a class="site-navigation-links-list__link site-navigation-link"
+               href="guarantee.html">Гарантия</a>
+          </li>
+          <li class="site-navigation-links-list__contacts">
+            <a class="site-navigation-links-list__link site-navigation-link"
+               href="contacts.html">Контакты</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+</body>
 </html>
