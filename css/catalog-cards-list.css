@@ -1,0 +1,108 @@
+@font-face {
+	font-family: "Gilroy";
+	src: url("../font/gilroyextrabold.woff2") format("woff2"),
+	url("../font/gilroyextrabold.woff") format("woff");
+	font-weight: 800;
+}
+
+
+/* catalog-cards-list */
+.catalog-links-list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+	display: grid;
+	grid-template-columns: repeat(6, minmax(160px, 1fr));
+	grid-auto-rows: minmax(220px, auto);
+	grid-gap: 40px;
+}
+
+
+/* catalog-cards-list-item */
+.catalog-links-list-item {
+	display: flex;
+	flex-direction: column;
+}
+
+
+/* catalog-links-list-item-link */
+.catalog-links-list-item-link {
+	position: relative;
+
+	display: flex;
+	flex-direction: column;
+
+	font-family: "Gilroy", "Arial", sans-serif;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 22px;
+	letter-spacing: 0.05em;
+
+	color: #000000;
+	text-decoration: none;
+}
+
+.catalog-links-list-item-link--size {
+	letter-spacing: normal;
+}
+
+.catalog-links-list-item-link:hover::before {
+	background-color: #F0C52E;
+}
+
+.catalog-links-list-item-link:active {
+	color: rgba(0, 0, 0, 0.3);
+}
+
+.catalog-links-list-item-link::before {
+	content: "";
+	min-height: 160px;
+	min-width: 160px;
+	margin-bottom: 38px;
+
+	background-color: #f7e296;
+}
+
+.catalog-links-list-item-link::after {
+	content: "";
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+
+	width: 160px;
+	height: 160px;
+
+	background-image: url(../img/catalog-links-list-item-link--icon-first.svg);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.catalog-links-list-item-link:active::after {
+	opacity: 0.3;
+}
+
+.catalog-links-list-item-link--icon-first::after {
+	background-image: url(../img/catalog-links-list-item-link--icon-first.svg);
+}
+
+.catalog-links-list-item-link--icon-second::after {
+	background-image: url(../img/catalog-links-list-item-link--icon-second.svg);
+}
+
+.catalog-links-list-item-link--icon-third::after {
+	background-image: url(../img/catalog-links-list-item-link--icon-third.svg);
+}
+
+.catalog-links-list-item-link--icon-fourth::after {
+	background-image: url(../img/catalog-links-list-item-link--icon-fourth.svg);
+}
+
+.catalog-links-list-item-link--icon-fifth::after {
+	background-image: url(../img/catalog-links-list-item-link--icon-fifth.svg);
+}
+
+.catalog-links-list-item-link--icon-sixth::after {
+	background-image: url(../img/catalog-links-list-item-link--icon-sixth.svg);
+}
