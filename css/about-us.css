@@ -1,0 +1,176 @@
+@font-face {
+  font-family: "Gilroy";
+  src: url("../font/gilroyextrabold.woff2") format("woff2"),
+  url("../font/gilroyextrabold.woff") format("woff");
+  font-weight: 800;
+}
+
+
+/* about-us-title */
+.about-us-title {
+  margin-top: 0;
+  margin-bottom: 0;
+
+  padding-top: 50px;
+
+  font-family: "Gilroy", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 47px;
+  line-height: 58px;
+  letter-spacing: 0.2em;
+
+  color: #000000;
+}
+
+
+/* decor-line */
+.about-us-title:before {
+  content: "";
+
+  position: absolute;
+  top: 7px;
+
+  width: 80px;
+  height: 7px;
+  background-color: #000000;
+}
+
+
+/* about-us-paragraph */
+.about-us-paragraph {
+  margin-top: 0;
+  margin-bottom: 0;
+
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 28px;
+
+  color: #000000;
+}
+
+
+/* about-us-delivery-companies-list */
+.about-us-delivery-companies-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.about-us-delivery-companies-list__item {
+  margin-bottom: 20px;
+}
+
+.about-us-delivery-companies-list__item:last-of-type {
+  margin-bottom: 0;
+}
+
+
+/* about-us-delivery-companies-list-item */
+.about-us-delivery-companies-list-item {
+  padding-left: 32px;
+
+  font-family: "Gilroy", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 28px;
+
+  color: #000000;
+
+  background-image: url(../img/about-us-delivery-companies-list-item__list-marker.svg);
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+
+/* button*/
+.button {
+  position: relative;
+
+  padding: 9px;
+  box-sizing: border-box;
+
+  display: flex;
+  justify-content: center;
+
+  text-align: center;
+  text-decoration: none;
+
+  font-family: "Gilroy", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+.button:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.button::before {
+  content: "";
+
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+
+  height: 8px;
+  width: 100%;
+  background-color: #F0C52E;
+}
+
+.button__text {
+  position: relative;
+  z-index: 10;
+}
+
+.button:hover::before {
+  height: 100%;
+}
+
+
+/* about-us */
+.about-us {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-us__title {
+  margin-bottom: 50px;
+}
+
+.about-us__intro {
+  margin-bottom: 40px;
+}
+
+.about-us__delivery {
+  margin-bottom: 60px;
+}
+
+.about-us__delivery-companies-list {
+  margin-bottom: 84px;
+}
+
+.about-us__button {
+  align-self: flex-start;
+  min-width: 260px;
+  max-width: 360px;
+}
+
+
+/* page */
+.page {}
+
+.page__about-us {
+  width: 560px;
+  padding-right: 65px;
+  box-sizing: border-box;
+}
