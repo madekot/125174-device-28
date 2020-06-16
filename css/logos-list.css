@@ -1,0 +1,64 @@
+/* logos-list */
+.logos-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  display: grid;
+  grid-template-columns: repeat(4, minmax(260px, 1fr));
+  grid-auto-rows: minmax(100px, 1fr);
+  grid-gap: 40px;
+}
+
+
+/* logos-list-item */
+.logos-list-item {
+  display: flex;
+  justify-content: center;
+}
+
+.logos-list-item__logo-link {
+  flex-grow: 1;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url(../img/logos-list-item__first-logo-image.png);
+}
+
+.logos-list-item__logo-link--first-image {
+  background-image: url(../img/logos-list-item__first-logo-image.png);
+}
+
+.logos-list-item__logo-link--second-image {
+  background-image: url(../img/logos-list-item__second-logo-image.png);
+}
+
+.logos-list-item__logo-link--third-image {
+  background-image: url(../img/logos-list-item__third-logo-image.png);
+}
+
+.logos-list-item__logo-link--fourth-image {
+  background-image: url(../img/logos-list-item__fourth-logo-image.png);
+}
+
+.logos-list-item__logo-link--first-image:hover {
+  background-image: url(../img/logos-list-item__first-logo-image--color.png);
+}
+
+.logos-list-item__logo-link--second-image:hover {
+  background-image: url(../img/logos-list-item__second-logo-image--color.png);
+}
+
+.logos-list-item__logo-link--third-image:hover {
+  background-image: url(../img/logos-list-item__third-logo-image--color.png);
+}
+
+.logos-list-item__logo-link--fourth-image:hover {
+  background-image: url(../img/logos-list-item__fourth-logo-image--color.png);
+}
+
+.logos-list-item__logo-image {
+  position: absolute !important;
+  clip: rect(1px, 1px, 1px, 1px);
+  overflow: hidden;
+}
+
