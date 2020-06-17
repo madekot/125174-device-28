@@ -88,6 +88,8 @@
 
 /* button*/
 .button {
+  background-color: transparent;
+  border: none;
   position: relative;
 
   padding: 9px;

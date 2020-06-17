@@ -1,3 +1,248 @@
-.slider-slides-list {
+/* page */
+.page__page-main-slider {
+  width: 1160px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+/* button*/
+.button {
+  background-color: transparent;
+  border: none;
+
+  position: relative;
+
+  padding: 9px;
+  box-sizing: border-box;
+
+  display: flex;
+  justify-content: center;
+
+  text-align: center;
+  text-decoration: none;
+
+  font-family: "Gilroy", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+.button:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.button::before {
+  content: "";
+
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+
+  height: 8px;
+  width: 100%;
+  background-color: #F0C52E;
+}
+
+.button__text {
+  position: relative;
+  z-index: 10;
+}
+
+.button:hover::before {
+  height: 100%;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../font/gilroylight.woff2") format("woff2"),
+  url("../font/gilroylight.woff") format("woff");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../font/gilroyextrabold.woff2") format("woff2"),
+  url("../font/gilroyextrabold.woff") format("woff");
+  font-weight: 800;
+}
+
+
+/* page-main-slider */
+.page-main-slider {}
+
+.page-main-slider__slides-list {}
+
+
+/* slider-slides-list */
+.slider-slides-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  display: flex;
+}
+
+
+/* slide */
+.slide {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+}
+
+.slide__image-container {
+  width: 560px;
+}
+
+.slide__column {
+  padding-right: 60px;
+  width: 500px;
+}
+
+
+/* slide-column-lead */
+.slide-column-lead {
+  margin-top: 0;
+  margin-bottom: 0;
+
+  font-family: "Gilroy", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 47px;
+  line-height: 58px;
+
+  color: #000000;
+}
+
+
+/* slide-column-description*/
+.slide-column-description {
+  margin-top: 0;
+  margin-bottom: 0;
+
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 20px;
+
+  color: #000000;
+}
+
+
+/* slide-column */
+.slide-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.slide-column__lead {
+  margin-bottom: 30px;
+}
+
+.slide-column__description {
+  margin-bottom: 60px;
+}
+
+.slide-column__button {
+  margin-bottom: 60px;
+  align-self: flex-start;
+
+  min-width: 220px;
+  max-width: 300px;
+}
+
+.slide-column__description-table {
+  align-self: flex-start;
+}
+
+
+/* slide-description-table */
+.slide-description-table {
+  display: flex;
+  flex-direction: column;
+}
+
+.slide-description-table__headers {}
+
+.slide-description-table__headers-row {}
+
+
+.slide-description-table__body {
+  order: -1;
+  margin-bottom: 15px;
+}
+
+
+/* first-slide-description-table-row */
+.first-slide-description-table-column-headers {
+  display: flex;
+}
+
+.first-slide-description-table-column-headers__item {
+  margin-right: 67px;
+}
+
+.first-slide-description-table-column-headers__item:last-of-type {
+  margin-right: 0;
+}
+
+
+/* slide-description-table-column-headers-item */
+.slide-description-table-column-headers-item {
+  font-family: "Gilroy", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 15px;
+
+  letter-spacing: 0.1em;
+
+  color: #000000;
+}
+
+
+/* first-slide-description-table-row */
+.first-slide-description-table-row {
+  display: flex;
+}
+
+.first-slide-description-table-row__cell {
+  margin-right: 65px;
+}
+
+.first-slide-description-table-row__cell:last-of-type {
+  margin-right: 0;
+}
+
+
+/* slide-description-table-row-cell */
+.slide-description-table-row-cell {
+  white-space: nowrap;
+
+  font-family: "Gilroy", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 42px;
+
+  letter-spacing: 0.1em;
+
+  color: #000000;
+}
+
+
+/* slide-image-container */
+.slide-image-container {
+
+}
+
+.visually-hidden {
+  display: none;
 }

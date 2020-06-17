@@ -4,22 +4,23 @@
 	<meta charset="UTF-8">
 	<title>Title</title>
 	<link rel="stylesheet" href="css/page-main-slider.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 </head>
-<body>
-<div class="page-main-slider">
+<body class="page">
+<div class="page__page-main-slider page-main-slider">
 	<ul class="page-main-slider__slides-list slider-slides-list">
 		<li class="slider-slides-list__item slide">
-			<div class="slide__image-container first-slide-image-container">
-				<img class="first-slide-image-container__image" src="" alt="">
+			<div class="slide__image-container slide-image-container">
+				<img class="slide-image-container__image" src="" alt="">
 			</div>
-			<div class="slide__column">
-				<p class="slide__lead slide-lead">Делай селфи, как Бен Стиллер!</p>
-				<p class="slide__description slide-description">Самая длинная палка для селфи доступна в нашем
+			<div class="slide__column slide-column">
+				<p class="slide-column__lead slide-column-lead">Делай селфи,<br> как Бен Стиллер!</p>
+				<p class="slide-column__description slide-column-description">Самая длинная палка для селфи доступна в нашем
 					магазине. Восемь (Восемь, Карл!) метров длиной и весом всего 5 килограмм.</p>
-				<button class="slide__button button">подробнее</button>
-				<table class="slide__description-table slide-description-table">
+				<button class="slide-column__button button"><span class="button__text">подробнее</span></button>
+				<table class="slide-column__description-table slide-description-table">
 					<thead class="slide-description-table__headers">
-					<tr class="slide-description-table__headers-row first-slide-description-table-column-headers">
+					  <tr class="slide-description-table__headers-row first-slide-description-table-column-headers">
 						<th class="first-slide-description-table-column-headers__item slide-description-table-column-headers-item">
 							Длина палки
 						</th>
@@ -32,16 +33,16 @@
 					</tr>
 					</thead>
 					<tbody class="slide-description-table__body">
-					<tr class="slide-description-table__row first-slide-description-table-row">
-						<td class="first-slide-description-table-row__cell slide-description-table-row-cell">8,5 м</td>
-						<td class="first-slide-description-table-row__cell slide-description-table-row-cell">5 кг</td>
-						<td class="first-slide-description-table-row__cell slide-description-table-row-cell">Карбон</td>
-					</tr>
+					  <tr class="slide-description-table__row first-slide-description-table-row">
+              <td class="first-slide-description-table-row__cell slide-description-table-row-cell">8,5 м</td>
+              <td class="first-slide-description-table-row__cell slide-description-table-row-cell">5 кг</td>
+              <td class="first-slide-description-table-row__cell slide-description-table-row-cell">Карбон</td>
+					  </tr>
 					</tbody>
 				</table>
 			</div>
 		</li>
-		<li class="slider-slides-list__item slide">
+		<li class="slider-slides-list__item slide visually-hidden">
 			<div class="slide__image-container second-slide-image-container">
 				<img class="second-slide-image-container__image" src="" alt="">
 			</div>
@@ -66,7 +67,7 @@
 				</table>
 			</div>
 		</li>
-		<li class="slider-slides-list__item slide">
+		<li class="slider-slides-list__item slide visually-hidden">
 			<div class="slide__image-container third-slide-image-container">
 				<img class="third-slide-image-container__image" src="" alt="">
 			</div>
@@ -97,7 +98,7 @@
 			</div>
 		</li>
 	</ul>
-	<ul class="page-main-slider__slider-toggle-list slider-toggle-list">
+	<ul class="page-main-slider__slider-toggle-list slider-toggle-list visually-hidden">
 		<li class="slider-toggle-list__item slider-toggle"></li>
 	</ul>
 </div>
