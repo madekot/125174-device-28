@@ -121,11 +121,11 @@
   </div>
 </div>
 <script>
-  // переключает слайды
   const togglesElements = document.querySelectorAll('.slider-toggle__toggle-item');
   const parentTogglesElement = document.querySelector('.slider-toggle-list');
   const sliderElement = document.querySelector('.slider-slides-list');
 
+  // переключает слайды
   parentTogglesElement.addEventListener('click', (evt) => {
       switch (evt.target) {
           case togglesElements[0]:
@@ -143,7 +143,20 @@
               sliderElement.classList.remove('slider-slides-list--first-slide', 'slider-slides-list--second-slide');
               return;
       }
-  }, true)
+  }, true);
+
+  // автоматически переключает слайды
+  const makeAutoSlidesSwitch = () => {
+      let counter = 1;
+      return () => {
+          togglesElements[counter].click();
+          counter++;
+          if (counter > 2) {
+              counter = 0;
+          }
+      };
+  };
+  setInterval(makeAutoSlidesSwitch(), 8000);
 </script>
 </body>
 </html>
