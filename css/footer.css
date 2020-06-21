@@ -11,6 +11,7 @@
   opacity: 0.3;
 }
 
+
 /* footer-paragraph */
 .footer-paragraph {
   margin-top: 0;
@@ -24,6 +25,50 @@
 
   color: #FFFFFF;
 }
+
+
+/* footer-user-navigation */
+.footer-user-navigation {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-user-navigation__login {
+  margin-right: 38px;
+}
+
+.footer-user-navigation__compare {
+  margin-right: 40px;
+}
+
+.footer-user-navigation__basket {}
+
+.footer__html-academy-logo {
+  align-self: flex-end;
+}
+
+
+/* html-academy-logo */
+.html-academy-logo {
+  display: flex;
+}
+
+.html-academy-logo:hover {
+  opacity: 0.6;
+}
+
+.html-academy-logo:active {
+  opacity: 0.3;
+}
+
+.html-academy-logo__image {
+  flex-grow: 1;
+}
+
 
 /* footer */
 .footer {
@@ -57,6 +102,26 @@
 }
 
 .footer__address {}
+
+.footer__third-column {
+  width: 360px;
+
+  padding-top: 46px;
+  padding-left: 35px;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__user-navigation {
+  margin-bottom: 73px;
+}
+
+.footer__phone {
+  align-self: flex-end;
+  margin-bottom: 67px;
+}
 
 
 /* footer-second-column */
@@ -144,3 +209,6 @@
 .social-list-item__link--twitter-icon {
   background-image: url(../img/twitter-icon.svg);
 }
+
+
+
