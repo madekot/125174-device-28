@@ -1,0 +1,128 @@
+@font-face {
+  font-family: "Gilroy";
+  src: url("../font/gilroyextrabold.woff2") format("woff2"),
+  url("../font/gilroyextrabold.woff") format("woff");
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../font/gilroylight.woff2") format("woff2"),
+  url("../font/gilroylight.woff") format("woff");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("../font/opensans.woff2") format("woff2"),
+  url("../font/opensans.woff") format("woff");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("../font/opensanslight.woff2") format("woff2"),
+  url("../font/opensanslight.woff") format("woff");
+  font-weight: 300;
+}
+
+
+/* visually-hidden */
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px, 1px, 1px, 1px);
+  padding:0 !important;
+  border:0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+
+/* button*/
+.button {
+  background-color: transparent;
+  border: none;
+  position: relative;
+
+  padding: 9px;
+  box-sizing: border-box;
+
+  display: flex;
+  justify-content: center;
+
+  text-align: center;
+  text-decoration: none;
+
+  font-family: "Gilroy", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+.button:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.button::before {
+  content: "";
+
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+
+  height: 8px;
+  width: 100%;
+  background-color: #F0C52E;
+}
+
+.button__text {
+  position: relative;
+  z-index: 10;
+}
+
+.button:hover::before {
+  height: 100%;
+}
+
+/* decor-line */
+.decor-line {
+  position: relative;
+}
+
+.decor-line:before {
+  content: "";
+
+  position: absolute;
+  top: 0;
+
+  width: 80px;
+  height: 7px;
+  background-color: #000000;
+}
+
+/* body */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* a */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+/* img */
+img {
+  max-width: 100%;
+  height: auto;
+}
