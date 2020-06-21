@@ -1,0 +1,146 @@
+/* footer-logo-device */
+.footer-logo-device {
+  display: flex;
+}
+
+.footer-logo-device:hover {
+  opacity: 0.6;
+}
+
+.footer-logo-device:active {
+  opacity: 0.3;
+}
+
+/* footer-paragraph */
+.footer-paragraph {
+  margin-top: 0;
+  margin-bottom: 0;
+
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 20px;
+
+  color: #FFFFFF;
+}
+
+/* footer */
+.footer {
+  min-height: 324px;
+
+  display: flex;
+  background-color: #363636;
+}
+
+.footer__first-column {
+  width: 260px;
+
+  margin-right: 100px;
+  padding-top: 64px;
+  padding-bottom: 80px;
+
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+}
+
+.footer__second-column {
+  width: 440px;
+  margin-right: auto;
+}
+
+.footer__logo {
+  width: 163px;
+  height: 35px;
+  margin-bottom: 40px;
+}
+
+.footer__address {}
+
+
+/* footer-second-column */
+.footer-second-column {
+  padding-top: 138px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-second-column__row {
+  margin-bottom: 67px;
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.footer-second-column__delivery {
+  margin-right: 36px;
+}
+
+.footer-second-column__guarantee {
+  margin-right: 36px;
+}
+
+.footer-second-column__contacts {}
+
+.footer-second-column__social-list {
+  align-self: center;
+}
+
+
+/* social-list */
+.social-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.social-list__item {
+  width: 32px;
+  height: 32px;
+
+  margin-right: 20px;
+}
+
+.social-list__item:last-of-type {
+  margin-right: 0;
+}
+
+
+/* social-list-item */
+.social-list-item {
+  display: flex;
+}
+
+.social-list-item__link {
+  flex-grow: 1;
+  background-image: url(../img/facebook-icon.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  opacity: 0.3;
+}
+
+.social-list-item__link:hover {
+  opacity: 0.6;
+}
+
+.social-list-item__link:active {
+  opacity: 0.1;
+}
+
+.social-list-item__link--facebook-icon {
+  background-image: url(../img/facebook-icon.svg);
+}
+
+.social-list-item__link--instagram-icon {
+  background-image: url(../img/instagram-icon.svg);
+}
+
+.social-list-item__link--twitter-icon {
+  background-image: url(../img/twitter-icon.svg);
+}
