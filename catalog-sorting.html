@@ -4,9 +4,35 @@
   <meta charset="UTF-8">
   <title>Title</title>
   <link rel="stylesheet" href="css/local-base-styles.css">
-  <link rel="stylesheet" href="css/catalog-corting.css">
+  <link rel="stylesheet" href="css/catalog-sorting.css">
 </head>
 <body>
-  <div class="catalog-corting"></div>
+  <section class="catalog-sorting">
+    <h2 class="catalog-sorting__title catalog-sorting-title">сортировка:</h2>
+    <ul class="first-sort__list first-sort-list">
+      <li class="first-sort-list__item first-sort-list-item">
+        <input class="first-sort-list-item__input first-sort-list-input visually-hidden" type="radio" id="first-sort-list__first-input" name="first-sort-list-input" checked>
+        <label class="first-sort-list-item__label first-sort-list-label" for="first-sort-list__first-input">По цене</label>
+      </li>
+      <li class="first-sort-list__item first-sort-list-item">
+        <input class="first-sort-list-item__input first-sort-list-input visually-hidden" type="radio" id="first-sort-list__second-input" name="first-sort-list-input">
+        <label class="first-sort-list-item__label first-sort-list-label" for="first-sort-list__second-input">По типу</label>
+      </li>
+      <li class="first-sort-list__item first-sort-list-item">
+        <input class="first-sort-list-item__input first-sort-list-input visually-hidden" type="radio" id="first-sort-list__third-input" name="first-sort-list-input">
+        <label class="first-sort-list-item__label first-sort-list-label" for="first-sort-list__third-input">По популярности</label>
+      </li>
+    </ul>
+    <ul class="second-sort__list second-sort-list">
+      <li class="second-sort-list__item second-sort-list-item">
+        <input class="second-sort-list-item__input second-sort-list-input visually-hidden" type="radio" id="second-sort-list__first-input" name="second-sort-list-input" checked>
+        <label class="second-sort-list-item__label second-sort-list-label" for="second-sort-list__first-input" aria-label="По возрастанию"></label>
+      </li>
+      <li class="second-sort-list__item second-sort-list-item">
+        <input class="second-sort-list-item__input second-sort-list-input visually-hidden" type="radio" id="second-sort-list__second-input" name="second-sort-list-input">
+        <label class="second-sort-list-item__label second-sort-list-label" for="second-sort-list__second-input" aria-label="По убыванию"></label>
+      </li>
+    </ul>
+  </section>
 </body>
 </html>

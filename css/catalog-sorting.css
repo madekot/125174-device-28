@@ -1,0 +1,152 @@
+/* second-sort-list-label */
+.second-sort-list-label {
+  width: 12px;
+  height: 12px;
+
+  background-image: url(../img/second-sort-list-label__icon.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  opacity: 0.2;
+  transform: rotate(180deg);
+}
+
+
+/* second-sort-list-input */
+.second-sort-list-input {}
+
+.second-sort-list-input:focus + .second-sort-list-label {
+  border-radius: 10px;
+  box-shadow: 0 0 0 6px #e5e5e5, 0 0 0 8px #4d90fe;
+}
+
+.second-sort-list-input:checked + .second-sort-list-label {
+  opacity: 1;
+  transform: rotate(0);
+}
+
+
+/* second-sort-list-item */
+.second-sort-list-item {
+  display: flex;
+  align-items: center;
+}
+
+.second-sort-list-item:last-of-type {
+  margin-right: 0;
+}
+
+.second-sort-list-item__input {}
+
+.second-sort-list-item__label {}
+
+
+/* second-sort-list */
+.second-sort-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  display: flex;
+}
+
+.second-sort-list__item {
+  margin-right: 16px;
+}
+
+
+/* first-sort-list-input */
+.first-sort-list-input {}
+
+.first-sort-list-input:focus + .first-sort-list-label {
+  border-radius: 10px;
+  box-shadow: 0 0 0 6px #e5e5e5, 0 0 0 8px #4d90fe;
+}
+
+.first-sort-list-input:checked + .first-sort-list-label {
+  opacity: 1;
+}
+
+
+/* first-sort-list-label */
+.first-sort-list-label {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+
+  cursor: pointer;
+  color: #000000;
+  opacity: 0.3;
+}
+
+
+/* first-sort-list-item */
+.first-sort-list-item {
+  display: flex;
+  align-items: center;
+}
+
+.first-sort-list-item__input {}
+
+.first-sort-list-item__label {}
+
+
+/* first-sort-list */
+.first-sort-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  display: flex;
+}
+
+.first-sort-list__item {
+  margin-right: 30px;
+}
+
+.first-sort-list__item:last-of-type {
+  margin-right: 0;
+}
+
+
+/* catalog-sorting-title */
+.catalog-sorting-title {
+  margin: 0;
+
+  font-family: "Gilroy", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 20px;
+
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+
+/* catalog-sorting */
+.catalog-sorting {
+  display: flex;
+  background-color: #e5e5e5;
+}
+
+.catalog-sorting__title {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-right: 74px;
+}
+
+.first-sort__list {
+  padding-top: 25px;
+  padding-bottom: 26px;
+  margin-right: auto;
+}
+
+.second-sort__list {
+  padding-top: 26px;
+  padding-bottom: 26px;
+}
