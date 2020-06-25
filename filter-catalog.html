@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>Title</title>
+  <link rel="stylesheet" href="css/local-base-styles.css">
+  <link rel="stylesheet" href="css/filter-catalog.css">
+</head>
+<body>
+  <section class="filter-catalog">
+    <h2 class="filter-catalog__title filter-catalog-title">фильтр:</h2>
+    <form class="filter-catalog__form filter-catalog-form" action="#" method="post">
+      <fieldset class="filter-catalog-form__price-field filter-catalog-form-field">
+        <h3 class="filter-catalog-form-field__title filter-catalog-form-field-title">Стоимость</h3>
+        <div class="filter-catalog-form-field__slider price-range-slider">
+          <div class="price-range-slider__range-scale range-scale-slider">
+            <div class="range-scale-slider__content">
+              <div class="range-scale-slider__slider-handle range-scale-slider__slider-handle--pen-min slider-handle" tabindex="1"></div>
+              <div class="range-scale-slider__slider-handle range-scale-slider__slider-handle--pen-max slider-handle" tabindex="1"></div>
+              <div class="range-scale-slider__progress-bar"></div>
+            </div>
+          </div>
+          <div class="price-range-slider__range-price range-price-slider">
+            <div class="range-price-slider__min-price slider-price-range">
+              <label class="slider-price-range__label slider-price-range-label" for="slider-price-min-label">от</label>
+              <input class="slider-price-range__input slider-price-range-input" type="text" value="0" id="slider-price-min-label">
+            </div>
+            <div class="range-price-slider__max-price slider-price-range">
+              <label class="slider-price-range__label slider-price-range-label" for="slider-price-max-label">до</label>
+              <input class="slider-price-range__input slider-price-range-input" type="text" value="5000" id="slider-price-max-label">
+            </div>
+          </div>
+        </div>
+      </fieldset>
+      <fieldset class="filter-catalog-form__price-color filter-catalog-form-field">
+        <h3 class="filter-catalog-form-field__title filter-catalog-form-field-title">Цвет</h3>
+      </fieldset>
+      <fieldset class="filter-catalog-form__price-option filter-catalog-form-field">
+        <h3 class="filter-catalog-form-field__title filter-catalog-form-field-title">Bluetooth</h3>
+      </fieldset>
+      <button class="filter-catalog-form__button button" type="submit"><span class="button__text">показать</span></button>
+    </form>
+  </section>
+</body>
+</html>
