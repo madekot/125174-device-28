@@ -1,0 +1,11 @@
+.catalog-page-title {
+  margin: 0;
+
+  font-family: "Gilroy", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 47px;
+  line-height: 58px;
+
+  color: #000000;
+}
