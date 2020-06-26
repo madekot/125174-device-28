@@ -139,6 +139,7 @@
   width: 50px;
 }
 
+
 /* range-price-slider */
 .range-price-slider {
   display: flex;
@@ -149,7 +150,6 @@
 }
 
 .range-price-slider__max-price {}
-
 
 
 /* price-range-slider */
@@ -164,8 +164,38 @@
 }
 
 
-/*price-range-slider*/
-.price-range-slider {}
+
+/* checkbox */
+.checkbox {
+	display: flex;
+}
+
+.checkbox__input {
+	flex-grow: 1;
+}
+
+.checkbox__input:checked ~ .checkbox__label .checkbox__icon-checkbox-off {
+	display: none;
+}
+
+.checkbox__input:not(:checked) ~ .checkbox__label .checkbox__icon-checkbox-on {
+	display: none;
+}
+
+.checkbox__label {
+
+}
+
+.checkbox__checkbox {
+	width: 24px;
+	height: 24px;
+
+	fill: #4d90fe;
+}
+
+.checkbox__icon-checkbox-on {}
+
+.checkbox__icon-checkbox-off {}
 
 
 /* filter-catalog-form-field */

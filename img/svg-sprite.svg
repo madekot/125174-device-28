@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="0" height="0" fill="#000">
+    <symbol viewBox="0 0 24 24" id="checkbox--on">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M22 2H2v20h20V2zM2 0a2 2 0 00-2 2v20c0 1.1.9 2 2 2h20a2 2 0 002-2V2a2 2 0 00-2-2H2zm5.08 10.75l-1.7 1.75 5.08 5.25L18.92 9l-1.69-1.75-6.77 7-3.38-3.5z"/>
+    </symbol>
+    <symbol viewBox="0 0 24 24" id="checkbox--off">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M22 2H2v20h20V2zM2 0a2 2 0 00-2 2v20a2 2 0 002 2h20a2 2 0 002-2V2a2 2 0 00-2-2H2z"/>
+    </symbol>
+</svg>
