@@ -5,4 +5,10 @@
     <symbol viewBox="0 0 24 24" id="checkbox--off">
         <path fill-rule="evenodd" clip-rule="evenodd" d="M22 2H2v20h20V2zM2 0a2 2 0 00-2 2v20a2 2 0 002 2h20a2 2 0 002-2V2a2 2 0 00-2-2H2z"/>
     </symbol>
+    <symbol viewBox="0 0 24 24" id="radio-icon-on">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M22 12a10 10 0 11-20 0 10 10 0 0120 0zm2 0a12 12 0 11-24 0 12 12 0 0124 0zm-12 4a4 4 0 100-8 4 4 0 000 8z"/>
+    </symbol>
+    <symbol viewBox="0 0 24 24" id="radio-icon-off">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M12 22a10 10 0 100-20 10 10 0 000 20zm0 2a12 12 0 100-24 12 12 0 000 24z"/>
+    </symbol>
 </svg>

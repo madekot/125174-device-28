@@ -36,21 +36,93 @@
       </fieldset>
       <fieldset class="filter-catalog-form__price-color filter-catalog-form-field">
         <h3 class="filter-catalog-form-field__title filter-catalog-form-field-title">Цвет</h3>
-				<div class="filter-catalog-form-field__checkbox">
-					<div class="checkbox">
-						<input class="checkbox__input visually-hidden" id="first-checkbox" type="checkbox" checked>
-						<label class="checkbox__label" for="first-checkbox">
-							<svg class="checkbox__checkbox" width="24" height="24">
-								<use class="checkbox__icon-checkbox-on" xlink:href="img/svg-sprite.svg#checkbox--on"></use>
-								<use class="checkbox__icon-checkbox-off" xlink:href="img/svg-sprite.svg#checkbox--off"></use>
+				<div class="filter-catalog-form-field__checkbox checkbox-field">
+					<div class="checkbox-field__checkbox checkbox">
+						<input class="checkbox__input checkbox-input visually-hidden" id="first-checkbox" type="checkbox" checked>
+						<label class="checkbox__label checkbox-label" for="first-checkbox">
+							<svg class="checkbox__checkbox-icon" width="24" height="24">
+								<use class="checkbox__checkbox-icon-on" xlink:href="img/svg-sprite.svg#checkbox--on"></use>
+								<use class="checkbox__checkbox-icon-off" xlink:href="img/svg-sprite.svg#checkbox--off"></use>
 							</svg>
 						</label>
 					</div>
-					<span	class="checkbox-field-label__text checkbox-field-label-text">Чёрный</span>
+					<label class="checkbox-field__checkbox-name checkbox-field-checkbox-name" for="first-checkbox">Чёрный</label>
 				</div>
+        <div class="filter-catalog-form-field__checkbox checkbox-field">
+          <div class="checkbox-field__checkbox checkbox">
+            <input class="checkbox__input checkbox-input visually-hidden" id="second-checkbox" type="checkbox">
+            <label class="checkbox__label checkbox-label" for="second-checkbox">
+              <svg class="checkbox__checkbox-icon" width="24" height="24">
+                <use class="checkbox__checkbox-icon-on" xlink:href="img/svg-sprite.svg#checkbox--on"></use>
+                <use class="checkbox__checkbox-icon-off" xlink:href="img/svg-sprite.svg#checkbox--off"></use>
+              </svg>
+            </label>
+          </div>
+          <label class="checkbox-field__checkbox-name checkbox-field-checkbox-name" for="second-checkbox">Белый</label>
+        </div>
+        <div class="filter-catalog-form-field__checkbox checkbox-field">
+          <div class="checkbox-field__checkbox checkbox">
+            <input class="checkbox__input checkbox-input checkbox-input visually-hidden" id="third-checkbox" type="checkbox">
+            <label class="checkbox__label checkbox-label checkbox-label" for="third-checkbox">
+              <svg class="checkbox__checkbox-icon" width="24" height="24">
+                <use class="checkbox__checkbox-icon-on" xlink:href="img/svg-sprite.svg#checkbox--on"></use>
+                <use class="checkbox__checkbox-icon-off" xlink:href="img/svg-sprite.svg#checkbox--off"></use>
+              </svg>
+            </label>
+          </div>
+          <label class="checkbox-field__checkbox-name checkbox-field-checkbox-name" for="third-checkbox">Синий</label>
+        </div>
+        <div class="filter-catalog-form-field__checkbox checkbox-field">
+          <div class="checkbox-field__checkbox checkbox">
+            <input class="checkbox__input checkbox-input visually-hidden" id="fourth-checkbox" type="checkbox">
+            <label class="checkbox__label checkbox-label" for="fourth-checkbox">
+              <svg class="checkbox__checkbox-icon" width="24" height="24">
+                <use class="checkbox__checkbox-icon-on" xlink:href="img/svg-sprite.svg#checkbox--on"></use>
+                <use class="checkbox__checkbox-icon-off" xlink:href="img/svg-sprite.svg#checkbox--off"></use>
+              </svg>
+            </label>
+          </div>
+          <label class="checkbox-field__checkbox-name checkbox-field-checkbox-name" for="fourth-checkbox">Красный</label>
+        </div>
+        <div class="filter-catalog-form-field__checkbox checkbox-field">
+          <div class="checkbox-field__checkbox checkbox">
+            <input class="checkbox__input checkbox-input visually-hidden" id="fifth-checkbox" type="checkbox">
+            <label class="checkbox__label checkbox-label" for="fifth-checkbox">
+              <svg class="checkbox__checkbox-icon" width="24" height="24">
+                <use class="checkbox__checkbox-icon-on" xlink:href="img/svg-sprite.svg#checkbox--on"></use>
+                <use class="checkbox__checkbox-icon-off" xlink:href="img/svg-sprite.svg#checkbox--off"></use>
+              </svg>
+            </label>
+          </div>
+          <label class="checkbox-field__checkbox-name checkbox-field-checkbox-name" for="fifth-checkbox">Розовый</label>
+        </div>
       </fieldset>
       <fieldset class="filter-catalog-form__price-option filter-catalog-form-field">
         <h3 class="filter-catalog-form-field__title filter-catalog-form-field-title">Bluetooth</h3>
+        <div class="filter-catalog-form-field__radio radio-field">
+          <div class="radio-field__radio radio">
+            <input class="radio__input radio-input visually-hidden" id="first-radio" type="radio" name="bluetooth" checked>
+            <label class="radio__label radio-label" for="first-radio">
+              <svg class="radio__checkbox-icon" width="24" height="24">
+                <use class="radio__radio-icon-on" xlink:href="img/svg-sprite.svg#radio-icon-on"></use>
+                <use class="radio__radio-icon-off" xlink:href="img/svg-sprite.svg#radio-icon-off"></use>
+              </svg>
+            </label>
+          </div>
+          <label class="radio-field__radio-name radio-field-radio-name" for="first-radio">Есть</label>
+        </div>
+        <div class="filter-catalog-form-field__radio radio-field">
+          <div class="radio-field__radio radio">
+            <input class="radio__input radio-input visually-hidden" id="second-radio" type="radio" name="bluetooth">
+            <label class="radio__label radio-label" for="second-radio">
+              <svg class="radio__checkbox-icon" width="24" height="24">
+                <use class="radio__radio-icon-on" xlink:href="img/svg-sprite.svg#radio-icon-on"></use>
+                <use class="radio__radio-icon-off" xlink:href="img/svg-sprite.svg#radio-icon-off"></use>
+              </svg>
+            </label>
+          </div>
+          <label class="radio-field__radio-name radio-field-radio-name" for="second-radio">Нет</label>
+        </div>
       </fieldset>
       <button class="filter-catalog-form__button button" type="submit"><span class="button__text">показать</span></button>
     </form>
