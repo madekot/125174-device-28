@@ -7,11 +7,115 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-auto-columns: minmax(360px, 1fr);
-  grid-auto-rows: minmax(455px, auto);
-  grid-column-gap: 38px;
+  grid-auto-rows: minmax(454px, 1fr);
+  grid-column-gap: 40px;
   grid-row-gap: 48px;
 }
 
-.list-cards-goods__item {
-  background-color: aquamarine;
+.list-cards-goods__item {}
+
+
+/* goods-card */
+.goods-card {
+  display: flex;
+  flex-direction: column;
+
+  min-height: 380px;
 }
+
+.goods-card__top {
+  margin-bottom: 30px;
+}
+
+
+/* goods-card-button-wrap */
+.goods-card-top-button-wrap {
+  padding-top: 180px;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: rgba(238, 238, 238, 0.7);
+}
+
+.goods-card-top-button-wrap__basket-button {
+  margin-bottom: 11px;
+  min-width: 200px;
+  max-width: 260px;
+}
+
+.goods-card-top-button-wrap__compare-button {}
+
+
+/* goods-card-top */
+.goods-card-top {
+  min-height: 380px;
+  min-width: 360px;
+
+  display: flex;
+  flex-direction: column;
+
+  position: relative;
+}
+
+.goods-card-top__button-wrap {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.goods-card-top__image-wrap {}
+
+
+/* goods-card-top-image-wrap*/
+.goods-card-top-image-wrap {
+  display: flex;
+}
+
+.goods-card-top-image-wrap__image {
+  flex-grow: 1;
+}
+
+
+/* goods-card-bottom-title */
+.goods-card-bottom-title {
+  margin: 0;
+
+  font-family: "Gilroy", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.05em;
+
+  color: #000000;
+}
+
+
+/* goods-card-bottom-price */
+.goods-card-bottom-price {
+  margin: 0;
+
+  font-family: "Gilroy", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 0.05em;
+
+  color: #000000;
+}
+
+/* goods-card-bottom */
+.goods-card-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.goods-card-bottom__title {}
+
+.goods-card-bottom__price {}
