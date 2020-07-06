@@ -1,0 +1,7 @@
+.page-main-row {
+	display: flex;
+}
+
+.page-main-row__column {
+	flex-grow: 1;
+}

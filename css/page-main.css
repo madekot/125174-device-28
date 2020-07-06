@@ -1,5 +1,10 @@
 .page-main {}
 
+.page-main__wrapper {
+	width: 100%;
+	background-color: aliceblue;
+}
+
 .page-main__inner {
   width: 1160px;
   margin-left: auto;
@@ -13,3 +18,9 @@
 .page-main__catalog-cards-list {
   margin-bottom: 49px;
 }
+
+.page-main__delivery-slider {
+	margin-bottom: 90px;
+}
+
+.page-main__logos-list {}
