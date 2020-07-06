@@ -1,0 +1,15 @@
+.page-main {}
+
+.page-main__inner {
+  width: 1160px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page-main__products-slider {
+  margin-bottom: 96px;
+}
+
+.page-main__catalog-cards-list {
+  margin-bottom: 49px;
+}
