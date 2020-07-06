@@ -1,10 +1,277 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <title>$Title$</title>
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>device</title>
 </head>
-<body>
-$END$
+<body class="page">
+<header class="page__header header">
+  <nav class="header__main-navigation main-navigation">
+    <div class="main-navigation__top main-navigation-top">
+      <div class="main-navigation-top__left-column main-navigation-top-left-column">
+        <a class="main-navigation-top-left-column__logo device-logo" href="#">
+          <img class="device-logo__image" src="img/device-logo__image.svg" width="163" height="35" alt="Логотип девайс">
+        </a>
+        <form class="main-navigation-top-left-column__search search-form">
+          <div class="search-form__content">
+            <input class="search-form__input search-input" type="text" placeholder="Поиск по сайту" aria-label="Поиск по сайту">
+            <button class="search-form__button search-button">найти</button>
+          </div>
+        </form>
+      </div>
+      <ul class="main-navigation-top-right-column__user-navigation user-navigation">
+        <li class="user-navigation__login">
+          <a class="user-navigation-link user-navigation-link--login-icon"
+             href="#">Войти</a>
+        </li>
+        <li class="user-navigation__compare">
+          <a class="user-navigation-compare__link user-navigation-link user-navigation-link--compare-icon"
+             href="#">Сравнить</a>
+        </li>
+        <li class="user-navigation__basket">
+          <a class="user-navigation-link user-navigation-link--basket-icon"
+             href="#">Корзина</a>
+        </li>
+      </ul>
+    </div>
+    <ul class="main-navigation-bottom-right-column__site-navigation-links-list site-navigation-links-list">
+      <li class="site-navigation-links-list__products site-navigation-links-list-products">
+        <a class="site-navigation-links-list-products__link main-navigation-link main-navigation-link--size main-navigation-link--icon"
+           href="#">каталог товаров</a>
+        <div class="site-navigation-links-list__products-dropdown site-navigation-links-list-dropdown">
+          <div class="site-navigation-links-list-dropdown__content products-dropdown-menu">
+            <ul class="products-dropdown-menu__column products-dropdown-menu-list">
+              <li class="products-dropdown-menu-list__item products-dropdown-menu-list-item">
+                <a class="products-dropdown-menu-list-item__link products-dropdown-menu-list-item-link"
+                   href="empty.html">Виртуальная реальность</a>
+              </li>
+              <li class="products-dropdown-menu-list__item products-dropdown-menu-list-item">
+                <a class="products-dropdown-menu-list-item__link products-dropdown-menu-list-item-link"
+                   href="empty.html">Моноподы для селфи</a>
+              </li>
+              <li class="products-dropdown-menu-list__item products-dropdown-menu-list-item">
+                <a class="products-dropdown-menu-list-item__link products-dropdown-menu-list-item-link"
+                   href="empty.html">Экшн-камеры</a>
+              </li>
+            </ul>
+            <ul class="products-dropdown-menu__column products-dropdown-menu-list">
+              <li class="products-dropdown-menu-list__item products-dropdown-menu-list-item">
+                <a class="products-dropdown-menu-list-item__link products-dropdown-menu-list-item-link"
+                   href="empty.html">Фитнес-браслеты</a>
+              </li>
+              <li class="products-dropdown-menu-list__item products-dropdown-menu-list-item">
+                <a class="products-dropdown-menu-list-item__link products-dropdown-menu-list-item-link"
+                   href="empty.html">Умные часы</a>
+              </li>
+            </ul>
+            <ul class="products-dropdown-menu__column products-dropdown-menu-list">
+              <li class="products-dropdown-menu-list__item products-dropdown-menu-list-item">
+                <a class="products-dropdown-menu-list-item__link products-dropdown-menu-list-item-link"
+                   href="empty.html">Квадрокоптер</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </li>
+      <li class="site-navigation-links-list__delivery">
+        <a class="site-navigation-links-list__link main-navigation-link"
+           href="delivery.html">Доставка</a>
+      </li>
+      <li class="site-navigation-links-list__guarantee">
+        <a class="site-navigation-links-list__link main-navigation-link"
+           href="guarantee.html">Гарантия</a>
+      </li>
+      <li class="site-navigation-links-list__contacts">
+        <a class="site-navigation-links-list__link main-navigation-link"
+           href="contacts.html">Контакты</a>
+      </li>
+    </ul>
+  </nav>
+</header>
+<main class="page__main page-main">
+  <div class="page-main__inner">
+    <div class="page-main__products-slider page-main-slider">
+      <div class="page-main-slider__wrapper-slides-list">
+        <ul class="page-main-slider__slides-list slider-slides-list slider-slides-list--first-slide">
+          <li class="slider-slides-list__item slide">
+            <div class="slide__image-container slide-image-container">
+              <img class="slide-image-container__image" src="img/slide-image-container__first-image.png" alt="" width="384"
+                   height="486">
+            </div>
+            <div class="slide__column slide-column">
+              <p class="slide-column__lead slide-column-lead">Делай селфи,<br> как Бен Стиллер!</p>
+              <p class="slide-column__description slide-column-description">Самая длинная палка для селфи доступна в нашем
+                магазине. Восемь (Восемь, Карл!) метров длиной и весом всего 5 килограмм.</p>
+              <button class="slide-column__button button"><span class="button__text">подробнее</span></button>
+              <table class="slide-column__description-table slide-description-table">
+                <thead class="slide-description-table__headers">
+                <tr class="slide-description-table__headers-row first-slide-description-table-column-headers">
+                  <th class="first-slide-description-table-column-headers__item slide-description-table-column-headers-item">
+                    Длина палки
+                  </th>
+                  <th class="first-slide-description-table-column-headers__item slide-description-table-column-headers-item">
+                    Вес палки
+                  </th>
+                  <th class="first-slide-description-table-column-headers__item slide-description-table-column-headers-item">
+                    Материал
+                  </th>
+                </tr>
+                </thead>
+                <tbody class="slide-description-table__body">
+                <tr class="slide-description-table__row first-slide-description-table-row">
+                  <td class="first-slide-description-table-row__cell slide-description-table-row-cell">8,5 м</td>
+                  <td class="first-slide-description-table-row__cell slide-description-table-row-cell">5 кг</td>
+                  <td class="first-slide-description-table-row__cell slide-description-table-row-cell">Карбон</td>
+                </tr>
+                </tbody>
+              </table>
+            </div>
+          </li>
+          <li class="slider-slides-list__item slide">
+            <div class="slide__image-container second-slide-image-container">
+              <img class="second-slide-image-container__image" src="img/slide-image-container__second-image.png" alt=""
+                   width="345" height="483">
+            </div>
+            <div class="slide__column slide-column">
+              <p class="slide-column__lead slide-column-lead">Худеем<br> правильно!</p>
+              <p class="slide-column__description slide-column-description">Мотивирующие фитнес-браслеты помогут найти в себе
+                силы
+                не пропускать занятия и соблюдать диету.</p>
+              <button class="slide-column__button button"><span class="button__text">подробнее</span></button>
+              <table class="slide-column__description-table slide-description-table">
+                <thead class="slide-description-table__headers">
+                <tr class="slide-description-table__headers-row second-slide-description-table-column-headers">
+                  <th class="second-slide-description-table-column-headers__item slide-description-table-column-headers-item">
+                    Без подзарядки
+                  </th>
+                </tr>
+                </thead>
+                <tbody class="slide-description-table__body">
+                <tr class="slide-description-table__row second-slide-description-table-row">
+                  <td class="second-slide-description-table-row__cell slide-description-table-row-cell">48 часов</td>
+                </tr>
+                </tbody>
+              </table>
+            </div>
+          </li>
+          <li class="slider-slides-list__item slide">
+            <div class="slide__image-container third-slide-image-container">
+              <img class="third-slide-image-container__image" src="img/slide-image-container__third-image.png" alt=""
+                   width="526" height="334">
+            </div>
+            <div class="slide__column slide-column">
+              <p class="slide-column__lead slide-column-lead">Порхает как бабочка, жалит как пчела!</p>
+              <p class="slide-column__description slide-column-description">Этот обычный, на первый взгляд, квадрокоптер
+                оснащен
+                мощным лазером, замаскированным под стандартную камеру.
+              </p>
+              <button class="slide-column__button button"><span class="button__text">подробнее</span></button>
+              <table class="slide-column__description-table slide-description-table">
+                <thead class="slide-description-table__headers">
+                <tr class="slide-description-table__headers-row third-slide-description-table-column-headers">
+                  <th class="third-slide-description-table-column-headers__item slide-description-table-column-headers-item">
+                    Дальность полета
+                  </th>
+                  <th class="third-slide-description-table-column-headers__item slide-description-table-column-headers-item">
+                    Радиус поражения
+                  </th>
+                </tr>
+                </thead>
+                <tbody class="slide-description-table__body">
+                <tr class="slide-description-table__row third-slide-description-table-row">
+                  <td class="third-slide-description-table-row__cell slide-description-table-row-cell">800 м</td>
+                  <td class="third-slide-description-table-row__cell slide-description-table-row-cell">50 м</td>
+                </tr>
+                </tbody>
+              </table>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="page-main-slider__slider-toggle-list slider-toggle-list">
+        <div class="slider-toggle-list__item slider-toggle">
+          <input class="slider-toggle__input-item visually-hidden" type="radio" name="slider-toggle" id="slider-toggle__first" checked>
+          <label class="slider-toggle__toggle-item" for="slider-toggle__first"></label>
+        </div>
+        <div class="slider-toggle-list__item slider-toggle">
+          <input class="slider-toggle__input-item visually-hidden" type="radio" name="slider-toggle" id="slider-toggle__second">
+          <label class="slider-toggle__toggle-item" for="slider-toggle__second"></label>
+        </div>
+        <div class="slider-toggle-list__item slider-toggle">
+          <input class="slider-toggle__input-item visually-hidden" type="radio" name="slider-toggle" id="slider-toggle__third">
+          <label class="slider-toggle__toggle-item" for="slider-toggle__third"></label>
+        </div>
+      </div>
+    </div>
+    <ul class="page-main__catalog-cards-list catalog-links-list">
+      <li class="catalog-links-list__item catalog-links-list-item">
+        <a class="catalog-links-list-item__link catalog-links-list-item-link catalog-links-list-item-link--icon-first"
+           href="#">Виртуальня реальность</a>
+      </li>
+      <li class="catalog-links-list__item catalog-links-list-item">
+        <a class="catalog-links-list-item__link catalog-links-list-item-link catalog-links-list-item-link--icon-second"
+           href="#">Моноподы <br>для селфи</a>
+      </li>
+      <li class="catalog-links-list__item catalog-links-list-item">
+        <a class="catalog-links-list-item__link catalog-links-list-item-link catalog-links-list-item-link--icon-third"
+           href="#">Экшн-камеры</a>
+      </li>
+      <li class="catalog-links-list__item catalog-links-list-item">
+        <a class="catalog-links-list-item__link catalog-links-list-item-link catalog-links-list-item-link--size catalog-links-list-item-link--icon-fourth"
+           href="#">Фитнес браслеты</a>
+      </li>
+      <li class="catalog-links-list__item catalog-links-list-item">
+        <a class="catalog-links-list-item__link catalog-links-list-item-link catalog-links-list-item-link--icon-fifth"
+           href="#">Умные часы</a>
+      </li>
+      <li class="catalog-links-list__item catalog-links-list-item">
+        <a class="catalog-links-list-item__link catalog-links-list-item-link catalog-links-list-item-link--icon-sixth"
+           href="#">Квадрокоптеры</a>
+      </li>
+    </ul>
+  </div>
+  <div class="page-main__delivery-slider delivery-slider"></div>
+</main>
+<script>
+    const togglesElements = document.querySelectorAll('.slider-toggle__toggle-item');
+    const parentTogglesElement = document.querySelector('.slider-toggle-list');
+    const sliderElement = document.querySelector('.slider-slides-list');
+
+    // переключает слайды
+    parentTogglesElement.addEventListener('click', (evt) => {
+        switch (evt.target) {
+            case togglesElements[0]:
+                sliderElement.classList.add('slider-slides-list--first-slide');
+                sliderElement.classList.remove('slider-slides-list--second-slide', 'slider-slides-list--third-slide');
+                return;
+
+            case togglesElements[1]:
+                sliderElement.classList.add('slider-slides-list--second-slide');
+                sliderElement.classList.remove('slider-slides-list--first-slide', 'slider-slides-list--third-slide');
+                return;
+
+            case togglesElements[2]:
+                sliderElement.classList.add('slider-slides-list--third-slide');
+                sliderElement.classList.remove('slider-slides-list--first-slide', 'slider-slides-list--second-slide');
+                return;
+        }
+    }, true);
+
+    // автоматически переключает слайды
+    const makeAutoSlidesSwitch = () => {
+        let counter = 1;
+        return () => {
+            togglesElements[counter].click();
+            counter++;
+            if (counter > 2) {
+                counter = 0;
+            }
+        };
+    };
+    setInterval(makeAutoSlidesSwitch(), 8000);
+</script>
 </body>
 </html>
